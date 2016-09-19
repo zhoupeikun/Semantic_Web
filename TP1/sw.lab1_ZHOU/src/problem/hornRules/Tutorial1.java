@@ -63,12 +63,12 @@ public class Tutorial1 extends Variable{
 		}
 		
 		//create the base of facts
-				baseFact = new FactBase();
-				HashSet<Variable> facts = baseFact.getFact();
+		baseFact = new FactBase();
+		HashSet<Variable> facts = baseFact.getFact();
 				
-				for(String s: factstring){
-					facts.add(new Variable(s.trim()));
-				} 
+		for(String s: factstring){
+			facts.add(new Variable(s.trim()));
+		} 
 		
 	}
 

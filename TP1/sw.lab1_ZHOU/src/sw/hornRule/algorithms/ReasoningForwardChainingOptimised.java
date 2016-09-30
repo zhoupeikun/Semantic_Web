@@ -7,7 +7,7 @@ import sw.hornRule.models.FactBase;
 import sw.hornRule.models.Formalism;
 
 /**
- * @author  <Your name>
+ * @author  ZHOU Peikun
  *
  */
 public class ReasoningForwardChainingOptimised extends AlogrithmChaining {
